@@ -20,3 +20,24 @@
 a {
     text-decoration: none;
 }
+
+
+
+
+/* Media query breakpoints */
+
+/* Extra small devices - portrait phones */
+@media (max-width: 575px) {
+}
+
+/* Small devices - Landscape phones */
+@media (max-width: 767px) {
+}
+
+/* Medium devices - Tablets */
+@media (max-width: 991px) {
+}
+
+/* Large devices - Desktops */
+@media (max-width: 1199px) {
+}
