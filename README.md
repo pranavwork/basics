@@ -14,3 +14,6 @@ https://www.jqueryscript.net/animation/jQuery-Plugin-To-Create-Elements-Fly-in-E
 
 * counter up number effect
 https://github.com/ciromattia/jquery.counterup
+
+* custom scrollbar
+http://manos.malihu.gr/jquery-custom-content-scroller/
