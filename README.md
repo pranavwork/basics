@@ -17,3 +17,6 @@ https://github.com/ciromattia/jquery.counterup
 
 * custom scrollbar
 http://manos.malihu.gr/jquery-custom-content-scroller/
+
+* lazy load images, videos, etc :
+lozad js
