@@ -1,9 +1,15 @@
 # basics
 
+CSS
+----
+* Change image at reponsive
+      <img src="images/banner01-mobile.webp" srcset="images/banner01-mobile.webp 480w, images/banner01.webp 1400w" alt="..." style="width:        100%;">
+
+
+
 jQuery
 -----------
-* 
-prefixfree.js
+* prefixfree.js
 
 * Animate on scroll
 https://michalsnik.github.io/aos/
