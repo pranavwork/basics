@@ -27,3 +27,6 @@ http://manos.malihu.gr/jquery-custom-content-scroller/
 
 * lazy load images, videos, etc :
 lozad js
+
+* dynamically add edit delete list / table
+https://www.jqueryscript.net/form/Dynamic-Form-Creation-Deletion.html
