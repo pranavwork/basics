@@ -6,6 +6,29 @@ CSS
 
 img src="images/banner01-mobile.webp" srcset="images/banner01-mobile.webp 480w, images/banner01.webp 1400w" alt="..." style="width: 100%;"
 
+* bootstrap remove outline
+textarea:focus,
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none;
+}
 
 
 jQuery
