@@ -55,7 +55,8 @@ lozad js
 https://www.jqueryscript.net/form/Dynamic-Form-Creation-Deletion.html
 
 
-* JavaScript
+JavaScript
+------------
     Animate navbar on scrolldown
     <script>
       let nav = document.getElementById("nav2"); // Identify target
