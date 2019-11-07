@@ -53,3 +53,36 @@ lozad js
 
 * dynamically add edit delete list / table
 https://www.jqueryscript.net/form/Dynamic-Form-Creation-Deletion.html
+
+
+* JavaScript
+    <!-- Animate navbar on scrolldown -->
+    <script>
+      let nav = document.getElementById("nav2"); // Identify target
+      let logo = document.getElementById("logo");
+      let carouselImg = document.querySelectorAll(".carousel-img");
+
+      window.addEventListener("scroll", function(event) {
+        // To listen for event
+        event.preventDefault();
+
+        if (window.scrollY <= 29) {
+          // Just an example
+          nav.style.background = "transparent"; // or default color
+          nav.style.padding = "50px 0 0 0";
+          logo.style.width = "150px";
+          for (let i = 0; i < carouselImg.length; i++) {
+            carouselImg[i].style.filter = "brightness(40%)";
+          }
+        } else {
+          nav.style.background =
+            "linear-gradient(to right,rgba(72, 0, 72, 0.9), rgba(192, 72, 72, 0.9))";
+          nav.style.padding = "5px 0";
+          logo.style.width = "125px";
+
+          for (let i = 0; i < carouselImg.length; i++) {
+            carouselImg[i].style.filter = "brightness(100%)";
+          }
+        }
+      });
+    </script>
